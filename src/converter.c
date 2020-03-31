@@ -21,7 +21,7 @@ double kilometres_to_metres(double kilometres)
   return metres;
 }
 
-/*double millimetres_to_centimetres(double millimetres)
+double millimetres_to_centimetres(double millimetres)
 {
   double centimetres;
   centimetres = millimetres/MILLIMETRES_IN_CENTIMETRE;
@@ -29,4 +29,4 @@ double kilometres_to_metres(double kilometres)
 };
 double centimetres_to_metres(double centimetres)
 {};
-double metres_to_kilometres(double metres);*/
+double metres_to_kilometres(double metres);
