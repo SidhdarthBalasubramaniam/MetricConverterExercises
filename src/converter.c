@@ -67,3 +67,9 @@ double millimetres_to_kilometres(double millimetres)
    kilometres = millimetres_to_metres * metres_to_kilometres;
    return kilometres;
 };
+double kilometres_to_centimetres(double kilometres)
+{
+  double centimetres;
+  centimetres = kilometres_to_metres * metres_to_centimetres;
+  return centimetres;
+};
