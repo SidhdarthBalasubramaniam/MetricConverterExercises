@@ -5,9 +5,9 @@
 int main() {
   /* Task 2 */
 
-  // test_centimetres_to_millimetres();
-  // test_metres_to_centimetres();
-  // test_kilometres_to_metres();
+   test_centimetres_to_millimetres();
+   test_metres_to_centimetres();
+   test_kilometres_to_metres();
 
   /* Task 3 */
 

@@ -2,15 +2,31 @@
 
 double centimetres_to_millimetres(double centimetres)
 {
-  centimetres = centimetres/MILLIMETRES_IN_CENTIMETRE
-};
+  double millimetres;
+  millimetres = centimetres * MILLIMETRES_IN_CENTIMETRE;
+return millimetres;
+}
 
 double metres_to_centimetres(double metres)
 {
-  metres = metres/CENTIMETRES_IN_METRE
-};
+  double centimetres;
+  centimetres = metres * CENTIMETRES_IN_METRE;
+  return centimetres;
+}
 
 double kilometres_to_metres(double kilometres)
 {
-  kilometres = kilometres/METRES_IN_KILOMETRE
+  double metres ;
+  metres = kilometres * METRES_IN_KILOMETRE;
+  return metres;
+}
+
+/*double millimetres_to_centimetres(double millimetres)
+{
+  double centimetres;
+  centimetres = millimetres/MILLIMETRES_IN_CENTIMETRE;
+  return centimetres;
 };
+double centimetres_to_metres(double centimetres)
+{};
+double metres_to_kilometres(double metres);*/
