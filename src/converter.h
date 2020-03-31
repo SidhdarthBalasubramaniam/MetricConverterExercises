@@ -1,11 +1,14 @@
+#include <stdlib.h>
+#include <stdio.h>
+
 #ifndef CONVERTER_H
 #define CONVERTER_H
-
+/* Task 1: Add your #defines here */
 #define MILLIMETRES_IN_CENTIMETRE 10
 #define CENTIMETRES_IN_METRE 100
 #define METRES_IN_KILOMETRE 1000
 
-/* Task 1: Add your #defines here */
+
 
 /* Task 2: Uncomment the following functions one by one and provide
  * implementations for them in converter.c. After you implement a function,
@@ -13,9 +16,9 @@
  * committed, uncomment the corresponding tests in main.c, make sure that they
  * pass, then push your changes */
 
-// double centimetres_to_millimetres(double centimetres);
-// double metres_to_centimetres(double metres);
-// double kilometres_to_metres(double kilometres);
+double centimetres_to_millimetres(double centimetres);
+double metres_to_centimetres(double metres);
+double kilometres_to_metres(double kilometres);
 
 /* Task 3: Uncomment the following functions one by one and provide
  * implementations for them in converter.c. After you implement a function,
