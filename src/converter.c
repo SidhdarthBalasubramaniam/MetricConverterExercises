@@ -47,3 +47,10 @@ double metres_to_millimetres(double metres)
   millimetres = metres_to_centimetres * centimetres_to_millimetres
   return millimetres;
 };
+
+double millimetres_to_metres(double millimetres)
+{
+  double metres;
+  metres = millimetres_to_centimetres * centimetres_to_metres;
+  return metres;
+};
