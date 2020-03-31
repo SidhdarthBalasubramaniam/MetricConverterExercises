@@ -28,5 +28,9 @@ double millimetres_to_centimetres(double millimetres)
   return centimetres;
 };
 double centimetres_to_metres(double centimetres)
-{};
+{
+  double metres;
+  metres = centimetres/CENTIMETRES_IN_METRE;
+  return metres;
+};
 double metres_to_kilometres(double metres);
