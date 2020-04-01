@@ -43,39 +43,45 @@ double metres_to_kilometres(double metres)
 //task4
 double metres_to_millimetres(double metres)
 {
-  double millimetres;
-  millimetres = metres_to_centimetres * centimetres_to_millimetres
+  double millimetres,centimetres;
+  centimetres = metres_to_centimetres(metres);
+  millimetres=centimetres_to_millimetres(centimetres);
   return millimetres;
 };
 
 double millimetres_to_metres(double millimetres)
 {
-  double metres;
-  metres = millimetres_to_centimetres * centimetres_to_metres;
+  double metres,centimetres;
+  centimetres = millimetres_to_centimetres(millimetres);
+  metres=centimetres_to_metres(centimetres);
   return metres;
 };
 
 double kilometres_to_millimetres(double kilometres)
 {
-  double millimetres;
-  millimetres = kilometres_to_metres * metres_to_millimetres;
+  double millimetres,metres;
+  metres = kilometres_to_metres(kilometres);
+  millimetres=metres_to_millimetres(metres);
   return millimetres;
 };
 double millimetres_to_kilometres(double millimetres)
 {
-  double kilometres;
-   kilometres = millimetres_to_metres * metres_to_kilometres;
+  double kilometres,metres;
+  metres = millimetres_to_metres(millimetres);
+  kilometres=metres_to_kilometres(metres);
    return kilometres;
 };
 double kilometres_to_centimetres(double kilometres)
 {
-  double centimetres;
-  centimetres = kilometres_to_metres * metres_to_centimetres;
+  double centimetres,metres;
+  metres = kilometres_to_metres(kilometres);
+  centimetres=metres_to_centimetres(metres);
   return centimetres;
 };
 double centimetres_to_kilometres(double centimetres)
 {
-  double kilometres;
-  kilometres = centimetres_to_metres * metres_to_kilometres;
+  double kilometres,metres;
+  metres = centimetres_to_metres(centimetres);
+  kilometres=metres_to_kilometres(metres);
   return kilometres;
 };

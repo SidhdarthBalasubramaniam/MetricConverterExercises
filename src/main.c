@@ -1,5 +1,5 @@
- #include "tests/tests_task2.h"
- #include "tests/tests_task3.h"
+#include "tests/tests_task2.h"
+#include "tests/tests_task3.h"
 #include "tests/tests_task4.h"
 
 int main() {
